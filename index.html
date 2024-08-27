@@ -121,7 +121,7 @@
         <section class="py-12 lg:py-20 bg-[#F4F4F4]">
             <img src="./assets/Vector.png" class="hidden lg:block mb-3 ml-[-35px]">
             <!-- about container -->
-            <div class="flex flex-col lg:flex-row gap-9">
+            <div class="flex flex-col lg:flex-row gap-9 px-3">
                 <!-- text -->
                 <div class="flex-1">
                     <p
@@ -177,7 +177,7 @@
                 blend of rustic charm and modern sophistication, featuring weathered
                 wood, sleek metal accents.</p>
             <!-- work card container -->
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-3">
                 <!-- card 1 -->
                 <div class="bg-[#E7C1D3] rounded-2xl p-6">
                     <img src="./assets/concept.png">
@@ -276,6 +276,43 @@
                 </div>
             </div>
         </section>
+        <!-- photo gallery section -->
+        <section class="py-12 lg:py-20">
+            <!-- main container -->
+            <div class="flex flex-col-reverse lg:flex-row gap-6 items-center px-3">
+                <!-- photo container -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:w-7/12">
+                    <div class="flex justify-center"><img src="./assets/gallery-one.png"></div>
+                    <div class="flex justify-center"><img src="./assets/gallery-two.png"></div>
+                    <div class="flex justify-center"><img src="./assets/gallery-three.png"></div>
+                    <div class="flex justify-center"><img src="./assets/gallery-four.png"></div>
+                    <div class="flex justify-center"><img src="./assets/gallery-five.png"></div>
+                    <div class="flex justify-center"><img src="./assets/gallery-six.png"></div>
+                </div>
+                <!-- text container -->
+                <div class="w-full lg:w-5/12">
+                    <h1 class="text-[#212121] text-4xl lg:text-5xl font-bold my-6">Our Photo Gallery</h1>
+                    <h3 class="text-[#212121cc] text-2xl lg:text-3xl font-bold my-6">Best of our <br> Event portfolio
+                        Photos</h3>
+                    <p class="text-[#494949] font-medium w-full mb-8">Our collection features a wide range of CSS
+                        galleries, each with its own unique design and functionality. Whether you're looking for a
+                        simple grid gallery, a carousel gallery, or a gallery with complex animations and transitions,
+                        you're sure to find something that suits your needs.</p>
+                    <!-- btn -->
+                    <button
+                        class="btn bg-primary_color text-[#1C1C1C] text-lg font-bold rounded-full w-full md:w-auto border-none uppercase">
+                        all photos and video
+                        <span class="bg-[#1C1C1C] rounded-full p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="size-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
         <!-- contact section -->
         <section class="py-12 lg:py-20 bg-[url('./assets/bg.jpg')] bg-cover bg-center">
             <button class="flex gap-2 font-bold text-[#494949] bg-[#abef5f33] px-4 py-2 rounded-3xl mx-auto">
@@ -309,7 +346,8 @@
                             class="w-full px-5 py-[21px] rounded-xl border-[#E9E9E9] placeholder:font-medium placeholder:text-[#A0A0A0] flex-1 focus:outline-none resize-none"></textarea>
                     </div>
                     <!-- btn -->
-                    <button class="btn bg-primary_color text-[#1C1C1C] text-xl font-extrabold rounded-full w-full">
+                    <button
+                        class="btn border-0 bg-primary_color text-[#1C1C1C] text-xl font-extrabold rounded-full w-full">
                         Send Mail
                         <span class="bg-[#1C1C1C] rounded-full p-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -347,7 +385,8 @@
             </ul>
         </div>
         <!-- btn -->
-        <button class="btn bg-primary_color text-[#1C1C1C] text-xl font-extrabold rounded-full w-full md:w-auto flex mx-auto border-none">
+        <button
+            class="btn bg-primary_color text-[#1C1C1C] text-xl font-extrabold rounded-full w-full md:w-auto flex mx-auto border-none">
             Book Consult
             <span class="bg-[#1C1C1C] rounded-full p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
